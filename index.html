@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore the portfolio of Alex Doe, a freelance web developer specializing in accessible, SEO-friendly websites." />
+  <meta name="keywords" content="Freelance Web Developer, HTML5, SEO, Accessibility, Portfolio" />
+  <meta name="author" content="Alex Doe" />
+  <title>Anne Muchiri| Web Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Anne Muchiri</h1>
+    <p>Creating clean, accessible, SEO-friendly websites</p>
+    <nav aria-label="Primary navigation">
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="work">
+      <h2>Recent Projects</h2>
+      <article>
+        <h3>EcoTrail</h3>
+        <p>A site for a hiking group built with mobile-first responsive design and optimized metadata.</p>
+        <a href="https://example.com/ecotrail" aria-label="View EcoTrail project">View Project</a>
+      </article>
+      <article>
+        <h3>QuickBites</h3>
+        <p>An online menu and ordering system with screen-reader friendly layout and clear heading structure.</p>
+        <a href="https://example.com/quickbites" aria-label="View QuickBites project">View Project</a>
+      </article>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm Anne, an aspiring web developer who builds modern websites using clean code, semantic HTML5, and accessibility-first design.</p>
+    </section>
+
+    <aside aria-label="Tech Stack">
+      <h2>My Tools</h2>
+      <ul>
+        <li>HTML5 </li>
+        <li>ARIA roles & semantic layout</li>
+        <li>SEO optimization techniques</li>
+      </ul>
+    </aside>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form aria-label="Contact form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Anne. Portfolio built with HTML5 & accessibility in mind.</p>
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="#top">Back to Top</a></li>
+        <li><a href="mailto:annemuchiri032@gmail.com">Email Me</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
